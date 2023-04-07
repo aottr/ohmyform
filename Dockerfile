@@ -10,8 +10,8 @@ RUN curl -sf https://gobinaries.com/tj/node-prune | sh
 
 COPY ui/ .
 
-RUN yarn install --frozen-lockfile
-RUN yarn build
+RUN npm install
+RUN npm run build
 
 # remove development dependencies
 RUN npm prune --production
