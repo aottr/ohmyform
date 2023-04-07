@@ -1,6 +1,6 @@
 [submodule "ui"]
 	path = ui
-	url = yhttps://github.com/ohmyform/ui
+	url = https://github.com/ohmyform/ui
 
 [submodule "api"]
 	path = api
